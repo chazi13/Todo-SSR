@@ -1,0 +1,33 @@
+{
+  "name": "todos",
+  "version": "0.0.1",
+  "description": "todos app server side rendering with express, prisma, nextjs and react",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chazi13",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.4",
+    "express": "^4.17.1",
+    "formik": "^1.5.8",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.5",
+    "next-compose-plugins": "^2.2.0",
+    "react": "^16.9.0",
+    "react-apollo": "^3.1.0",
+    "react-dom": "^16.9.0"
+  },
+  "_moduleAliases": [
+    {
+      "src": "graphql",
+      "expose": "@graphql"
+    }
+  ]
+}
